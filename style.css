@@ -239,3 +239,16 @@
     height: 50px;
     border-radius: 8px;
 }
+
+
+.last-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 550px;
+}
+
+.last-footer .foot-heading{
+    font-size: 10px;
+    font-weight: 600;
+}
