@@ -113,3 +113,32 @@
     padding: 20px;
     color: #0D1321;
 }
+
+
+
+/* inspiration part */
+
+.inspiration{
+    margin-left: 150px;
+    margin-right: 150px;
+   text-align: center;
+}
+
+.inspiration-titles{
+    margin-left: 300px;
+}
+
+.inspiration-title{
+    font-size: 32px;
+    font-weight: 800;
+    width: 850px;
+}
+
+.inspiration-description{
+    font-size: 16px;
+    font-weight: 400;
+    width: 850px;
+}
+.inspiration-video{
+    margin-top: 20px;
+}
