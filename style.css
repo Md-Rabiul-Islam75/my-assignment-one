@@ -1,5 +1,3 @@
-
-
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
@@ -9,136 +7,185 @@
 
 /* header parts */
 
-.header{
-    background-image: url('assets/Hero-bg.png');
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-    
+.header {
+  background-image: url("assets/Hero-bg.png");
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
 }
 
-.header-container{
-    height: 550px;
-    width: 950px;
-    align-items: center;
-    text-align: center;
-    gap: 10px;
+.header-container {
+  height: 550px;
+  width: 950px;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
 }
 
-.header-title{
-    font-weight: 800;
-    font-size: 48px;
+.header-title {
+  font-weight: 800;
+  font-size: 48px;
 }
 
-.header-description{
-    font-size: 16px;
-    font-weight: 400;
+.header-description {
+  font-size: 16px;
+  font-weight: 400;
 }
 
-
-.header-button{
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
-    background-color: black;
-    padding: 10px 20px 10px 20px;
-    cursor: pointer;
+.header-button {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: black;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
 }
-
-
 
 /* Main part */
 
-
-.titles{
-    display: block;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    width: 850px;
-    margin-left: 400px;
-    text-align: center;
+.titles {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 850px;
+  margin-left: 400px;
+  text-align: center;
 }
 
-.main-title{
-    font-weight: 800;
-    font-size: 30px;
-    
-    text-align: center;
+.main-title {
+  font-weight: 800;
+  font-size: 30px;
+
+  text-align: center;
 }
 
-.main-description{
-    font-size: 15px;
-    font-weight: 400;
+.main-description {
+  font-size: 15px;
+  font-weight: 400;
 }
 
 /* main part container part */
 
-.container{
-    margin-top: 200px;
-    /* height: 1235px;
+.container {
+  margin-top: 200px;
+  /* height: 1235px;
     width: 950px; */
-    
 }
 
-.container-one{
-    display: flex;
-    justify-content: space-between;
-    height: 350;
-    width: 900px;
-    /* text-align: center; */
-    margin-left: 400px;
+.container-one {
+  display: flex;
+  justify-content: space-between;
+  height: 350;
+  width: 900px;
+  /* text-align: center; */
+  margin-left: 400px;
 }
 
-.one-part-one{
-    height: 200px;
-    width: 450px;
+.one-part-one {
+  height: 200px;
+  width: 450px;
 }
 
-.container-one-title{
-     font-size: 25px;
-     font-weight: 700;
+.container-one-title {
+  font-size: 25px;
+  font-weight: 700;
 }
 
-.container-one-description{
-    font-size: 16px;
-    font-weight: 400;
+.container-one-description {
+  font-size: 16px;
+  font-weight: 400;
 }
 
-.container-one-button{
-    font-size: 20px;
-    font-weight: 600;
-    padding: 20px;
-    color: #0D1321;
+.container-one-button {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px;
+  color: #0d1321;
 }
-
-
 
 /* inspiration part */
 
-.inspiration{
-    margin-left: 150px;
-    margin-right: 150px;
-   text-align: center;
+.inspiration {
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
 }
 
-.inspiration-titles{
-    margin-left: 300px;
+.inspiration-titles {
+  margin-left: 300px;
 }
 
-.inspiration-title{
-    font-size: 32px;
-    font-weight: 800;
-    width: 850px;
+.inspiration-title {
+  font-size: 32px;
+  font-weight: 800;
+  width: 850px;
 }
 
-.inspiration-description{
-    font-size: 16px;
-    font-weight: 400;
-    width: 850px;
+.inspiration-description {
+  font-size: 16px;
+  font-weight: 400;
+  width: 850px;
 }
-.inspiration-video{
-    margin-top: 20px;
+.inspiration-video {
+  margin-top: 20px;
+}
+
+/* my current targets style */
+
+.current-target {
+  margin-top: 20px;
+  width: 1150px;
+  height: 450px;
+}
+
+.current-target-titles {
+  width: 915;
+  height: 115px;
+  margin-left: 600px;
+  text-align: center;
+}
+
+/* Current target container */
+.current-target-container {
+  margin-top: 150px;
+  width: 1140px;
+  height: 450px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 350px;
+}
+
+.current-target-container .one .two .three {
+  width: 350px;
+  height: 300px;
+}
+
+.one .one-title {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.one .one-description {
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.one {
+  border-radius: 16px;
+
+  background: rgba(255, 76, 30, 0.05);
+}
+.two {
+  border-radius: 16px;
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: rgba(0, 76, 232, 0.05);
+}
+.three {
+  border-radius: 16px;
+
+  background: rgba(255, 223, 0, 0.05);
 }
